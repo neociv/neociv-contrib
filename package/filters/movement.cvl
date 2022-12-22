@@ -1,0 +1,15 @@
+;; Simple filter that takes a cell as input and returns the available cells that can be moved to.
+;; Will block out movement from mountains, water, or enemy units.
+(cvl.define :unit.movement.filter :ground.simple (fn [cell range]
+    []
+))
+
+;; Filter that allows for traversing and entering coastal water.
+(cvl.define :unit.movement.filter :ground.intermediate (fn [cell range]
+    []
+))
+
+;; Filter that allows for traversing and entering deep water
+(cvl.define :unit.movement.filter :ground.advanced (fn [cell range]
+    []
+))
