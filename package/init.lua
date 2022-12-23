@@ -1,4 +1,4 @@
-require "content/neociv-contrib/package/filters/movement"
+require("content.neociv-contrib.package.filters.movement")
 
 -- Define currencies
 cvl.define("currency", "gold", { title = "Gold", icon = { vec = "@/icons/currencies/gold.svg" } })
