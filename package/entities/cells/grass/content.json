@@ -2,7 +2,7 @@
   {
     "id": "grass",
     "kind": "cell.material",
-    "content": {
+    "resources": {
       "frag": "frag.wgsl",
       "vert": "vert.wgsl"
     }

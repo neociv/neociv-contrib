@@ -1,7 +1,7 @@
 require("content.neociv-contrib.package.filters.movement")
 
 -- Load up the media (mesh, materials, sounds, etc...)
-cvl.load_content_file("@/resources/buildings/entity.json")
+--cvl.load_content_file("@/resources/buildings/entity.json")
 
 -- Define currencies
 cvl.define("currency", "gold", { title = "Gold", icon = { vec = "@/icons/currencies/gold.svg" } })
