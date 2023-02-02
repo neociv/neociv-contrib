@@ -1,6 +1,6 @@
 [
   {
-    "id": "org.neociv.contrib.materials.building.castle",
+    "id": "@.materials.building.castle",
     "kind": "entity.material.building",
     "resources": {
       "frag": "frag.wgsl",
@@ -8,15 +8,15 @@
     }
   },
   {
-    "id": "org.neociv.contrib.entities.building.castle",
-    "kind": "entity.desc",
+    "id": "@.entities.building.castle",
+    "kind": "entity.desc.building",
     "props": {
       "attack": 10,
       "defense": 10
     },
     "resources": {
       "mesh": "castle.gltf",
-      "materials": ["org.neociv.contrib.materials.building.castle"]
+      "materials": ["@.materials.building.castle"]
     }
   }
 ]
