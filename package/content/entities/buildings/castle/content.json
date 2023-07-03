@@ -1,22 +1,18 @@
 [
   {
-    "id": "@.materials.building.castle",
-    "kind": "entity.material.building",
+    "id": "@.entity.building.material.castle",
+    "kind": "entity.building.material",
     "resources": {
       "frag": "frag.wgsl",
       "vert": "vert.wgsl"
     }
   },
   {
-    "id": "@.entities.building.castle",
-    "kind": "entity.desc.building",
-    "props": {
-      "attack": 10,
-      "defense": 10
-    },
+    "id": "@.entity.building.scene.castle",
+    "kind": "entity.building.scene",
     "resources": {
       "mesh": "castle.gltf",
-      "materials": ["@.materials.building.castle"]
+      "materials": ["@.entity.building.material.castle"]
     }
   }
 ]

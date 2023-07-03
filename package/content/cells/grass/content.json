@@ -1,6 +1,6 @@
 [
   {
-    "id": "@.materials.cells.grass",
+    "id": "@.cell.material.grass",
     "kind": "cell.material",
     "resources": {
       "frag": "frag.wgsl",
